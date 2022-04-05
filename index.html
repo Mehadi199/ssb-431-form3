@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="main_container">
+        <div class="img">
+            <img src="img/bg.jpg" alt="img">
+        </div>
+        <div class="form">
+            <h1>Sign Up</h1>
+            <form action="">
+                <div class="name input">
+                    <label for="name"><b>Full Name</b></label>
+                    <input type="text" placeholder="Name" name="name" id="name" required autocomplete="off">
+                </div>
+                <div class="email input">
+                    <label for="email"><b>Email</b></label>
+                    <input type="email" placeholder="Email Address" name="email" id="email" required autocomplete="off">
+                </div>
+                <div class="u_name input">
+                    <label for="u_name"><b>Username</b></label>
+                    <input type="text" placeholder="Username" id="u_name" required autocomplete="off">
+                </div>
+                <div class="pass input">
+                    <label for="pass"><b>Password</b></label>
+                    <input type="password" placeholder="***********" name="pass" id="pass" required autocomplete="off">
+                </div>
+                <div class="r_pass input">
+                    <label for="r_pass"><b>Repeat Password</b></label>
+                    <input type="password" placeholder="***********" name="r_pass" id="r_pass">
+                </div>
+                <div class="cheek">
+                    <input type="checkbox" name="cheek" id="cheek"><span>I agree to the</span> Terms of user
+                </div>
+                <div class="btn">
+                    <button type="submit" value="Sign Up">Sign Up</button>
+                    <!-- <input type="button" value="Sign Up"> -->
+                    <a href="#">Sign In<i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
